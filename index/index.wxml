@@ -1,0 +1,1 @@
+<barrage  bind:done="barrageDone" top="200rpx" shakeSpeed="1000" rowSpacing="60rpx" list="{{barrageList}}"></barrage>

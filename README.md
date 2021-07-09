@@ -1,37 +1,28 @@
 # 小程序弹幕组件
 
-#### 介绍
+### 介绍
 小程序弹幕组件，可用于商品购买信息飘窗展示，开箱即用，只支持小程序。
 
-#### 软件架构
-软件架构说明
 
 
-#### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### 使用说明
 
-#### 使用说明
+| 属性名 | 是否必填 | 值类型 | 默认值 | 说明 |
+| --------- | -------- | -----: | --: | --: |
+| top| 否  | String| 10vh |   距离屏幕顶部距离 |
+| rowSpacing| 否  | String| 40rpx |   弹幕行间距 |
+| list| 否  | Array| [] |   数据源示例：[{avatar:"",words:""}] |
+| zIndex| 否  | Number| 999 |   层级 |
+| speed| 否  | Number| 5000 |   滚动100vw所需时间 |
+| shakeSpeed| 否  | Number| 500 |   速度波动范围-500~500ms之间选取随机值 |
+| shakeDelay| 否  | Number| 500 |   动画延时执行时间波动范围上限值 0~500ms之间选取随机值, 用于控制弹幕出厂顺序 |
+| rows| 否  | Number| 3 |  弹幕行数 |
+| marRight| 否  | String| 40rpx |  每项弹幕右外边距 |
+| loop| 否  | Boolean| true |  是否循环 |
+| @done| 否  | Function|  |  单次滚动完成的回调 |
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### 演示图片
 
-#### 参与贡献
+![Image text](https://z3.ax1x.com/2021/07/09/RxVKMj.gif)
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
